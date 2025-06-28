@@ -33,7 +33,7 @@ html {
   text-size-adjust: auto;
 }
 ::selection {
-  background: #2eacd2;
+  background: #648773;
   color: #fff;
 }
 ::-webkit-scrollbar {
@@ -44,7 +44,7 @@ html {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  background: #2eacd2;
+  background: #648773;
 }
 ::-webkit-scrollbar-track {
   -webkit-border-radius: 0;
@@ -57,7 +57,7 @@ img {
   margin: 10px 0;
 }
 a {
-  color: #2eacd2;
+  color: #648773;
   text-decoration: none;
   -webkit-transition: 260ms;
   -moz-transition: 260ms;
@@ -140,7 +140,7 @@ html.ie6 .container {
   min-width: 100px;
 }
 .change-link:hover {
-  border-color: #2eacd2;
+  border-color: #648773;
 }
 .change-link .icon {
   font-size: 1.2rem;
@@ -185,12 +185,12 @@ html.ie6 .container {
   transition: all 300ms;
 }
 .paginator .current {
-  background: rgba(46,172,210,0.2);
-  color: #2eacd2;
+  background: rgba(100,135,115,0.2);
+  color: #648773;
 }
 .paginator .page-number:hover,
 .paginator .extend:hover {
-  background: rgba(46,172,210,0.2);
+  background: rgba(100,135,115,0.2);
 }
 .paginator-info {
   text-align: center;
@@ -968,12 +968,11 @@ html.ie6 .article kbd {
   border: 0;
 }
 .article .highlight {
-  background-color: #fdf6e3;
-  color: #586e75;
+  background-color: #fff;
+  color: #24292f;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  border: 1px dashed #bfbfbf;
 }
 .article .highlight table {
   margin: 0;
@@ -984,7 +983,7 @@ html.ie6 .article kbd {
 .article .highlight table .gutter {
   position: sticky;
   left: 0;
-  background: #fdf6e3;
+  background: #fff;
 }
 .article .highlight table .gutter pre {
   padding: 0 15px;
@@ -996,8 +995,8 @@ html.ie6 .article kbd {
   text-align: right;
 }
 .article pre.line-numbers {
-  background-color: #fdf6e3;
-  color: #586e75;
+  background-color: #fff;
+  color: #24292f;
 }
 .article .highlight pre {
   margin-bottom: 0;
@@ -1345,19 +1344,19 @@ html.ie6 .article .admonition {
   font-weight: bold;
   text-decoration: none;
   background-color: var(--container-bg);
-  border: 2px solid #2eacd2;
-  -webkit-box-shadow: 3px 3px 0 #2eacd2;
-  -moz-box-shadow: 3px 3px 0 #2eacd2;
-  box-shadow: 3px 3px 0 #2eacd2;
+  border: 2px solid #648773;
+  -webkit-box-shadow: 3px 3px 0 #648773;
+  -moz-box-shadow: 3px 3px 0 #648773;
+  box-shadow: 3px 3px 0 #648773;
   scale: 0.9;
 }
 html.ie8 .read-more,
 html.ie7 .read-more,
 html.ie6 .read-more {
-  border: 2px solid #2eacd2;
+  border: 2px solid #648773;
 }
 .read-more a {
-  color: #2eacd2;
+  color: #648773;
   text-decoration: none;
 }
 .read-more:hover {
@@ -1430,10 +1429,10 @@ nav {
   gap: 23px;
 }
 .post-tag a {
-  color: #2323ef;
+  color: #ff2fa1;
 }
 .post-tag .tag-item {
-  background: rgba(35,35,239,0.1);
+  background: rgba(255,47,161,0.1);
   position: relative;
   display: inline-block;
   height: 26px;
@@ -1452,13 +1451,13 @@ nav {
   -webkit-transition: 260ms;
   -moz-transition: 260ms;
   transition: 260ms;
-  border-right: 13px solid rgba(35,35,239,0.1);
+  border-right: 13px solid rgba(255,47,161,0.1);
 }
 .post-tag .tag-item:hover {
-  background: rgba(35,35,239,0.2);
+  background: rgba(255,47,161,0.2);
 }
 .post-tag .tag-item:hover::before {
-  border-right-color: rgba(35,35,239,0.2);
+  border-right-color: rgba(255,47,161,0.2);
 }
 .post-cate {
   margin: 10px 0 40px 0;
@@ -1467,13 +1466,13 @@ nav {
   gap: 13px;
 }
 .post-cate a {
-  color: #23ef23;
+  color: #19ceb0;
 }
 .post-cate :first-child {
   margin-right: 5px;
 }
 .post-cate .cate-item {
-  background: rgba(35,239,35,0.1);
+  background: rgba(25,206,176,0.1);
   position: relative;
   display: inline-block;
   height: 26px;
@@ -1504,13 +1503,13 @@ nav {
   -webkit-transition: 260ms;
   -moz-transition: 260ms;
   transition: 260ms;
-  border-left: 13px solid rgba(35,239,35,0.1);
+  border-left: 13px solid rgba(25,206,176,0.1);
 }
 .post-cate .cate-item:hover {
-  background: rgba(35,239,35,0.2);
+  background: rgba(25,206,176,0.2);
 }
 .post-cate .cate-item:hover::after {
-  border-left-color: rgba(35,239,35,0.2);
+  border-left-color: rgba(25,206,176,0.2);
 }
 .toc-container {
   position: sticky;
@@ -1545,7 +1544,7 @@ nav {
   color: #c4c4c4;
 }
 .toc-container .toc a:hover {
-  color: #2eacd2 !important;
+  color: #648773 !important;
 }
 .toc-container .toc:hover a {
   color: #808080;
@@ -1573,7 +1572,7 @@ nav {
 .archive .year-group .circle {
   height: 14px;
   width: 14px;
-  background: #dedede;
+  background: #ccc;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1591,7 +1590,7 @@ nav {
   content: '';
   height: calc(100% + 40px);
   width: 2px;
-  background: #dedede;
+  background: #ccc;
   position: absolute;
   left: -34px;
   top: -20px;
@@ -1609,13 +1608,13 @@ nav {
   content: '';
   height: 100%;
   width: 2px;
-  background: #dedede;
+  background: #ccc;
   position: absolute;
   left: -54px;
   top: 0;
 }
 .archive .post-item:hover {
-  background: rgba(46,172,210,0.1);
+  background: rgba(100,135,115,0.1);
 }
 .tags {
   margin: 50px 50px 10px 50px;
@@ -1647,7 +1646,7 @@ nav {
   border-radius: 5px;
 }
 .tag-container .tag-list .tag-item:hover {
-  background: rgba(46,172,210,0.1);
+  background: rgba(100,135,115,0.1);
 }
 .cates-container {
   margin: 50px 50px 10px 50px;
@@ -1678,7 +1677,7 @@ nav {
   border-radius: 5px;
 }
 .cates-container .cate-list .cate-item:hover {
-  background: rgba(46,172,210,0.1);
+  background: rgba(100,135,115,0.1);
 }
 .to-top {
   position: fixed;
