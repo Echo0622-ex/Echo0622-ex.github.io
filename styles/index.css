@@ -1618,7 +1618,7 @@ nav {
 .archive .year-group .circle {
   height: 14px;
   width: 14px;
-  background: #dedede;
+  background: #8f8f8f;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1640,7 +1640,7 @@ nav {
   content: '';
   height: calc(100% + 40px);
   width: 2px;
-  background: #dedede;
+  background: #8f8f8f;
   position: absolute;
   left: -34px;
   top: -20px;
@@ -1660,7 +1660,7 @@ nav {
   content: '';
   height: 100%;
   width: 2px;
-  background: #dedede;
+  background: #8f8f8f;
   position: absolute;
   left: -54px;
   top: 0;
