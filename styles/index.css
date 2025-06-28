@@ -27,6 +27,8 @@ html {
   color: var(--color);
   -webkit-transition: background 260ms ease, color 260ms ease;
   -moz-transition: background 260ms ease, color 260ms ease;
+  -ms-transition: background 260ms ease, color 260ms ease;
+  -o-transition: background 260ms ease, color 260ms ease;
   transition: background 260ms ease, color 260ms ease;
   -webkit-text-size-adjust: auto;
   -ms-text-size-adjust: auto;
@@ -43,12 +45,16 @@ html {
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
   background: #2eacd2;
 }
 ::-webkit-scrollbar-track {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0;
   background: transparent;
 }
@@ -61,6 +67,8 @@ a {
   text-decoration: none;
   -webkit-transition: 260ms;
   -moz-transition: 260ms;
+  -ms-transition: 260ms;
+  -o-transition: 260ms;
   transition: 260ms;
 }
 a:hover {
@@ -108,6 +116,8 @@ footer {
   box-sizing: border-box;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
   -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,0.16);
   -moz-box-shadow: 0 0 15px 5px rgba(0,0,0,0.16);
@@ -132,6 +142,8 @@ html.ie6 .container {
   border: 1px solid #bbb;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -169,11 +181,15 @@ html.ie6 .container {
 .paginator :first-child {
   -webkit-border-radius: 2px 0 0 2px;
   -moz-border-radius: 2px 0 0 2px;
+  -ms-border-radius: 2px 0 0 2px;
+  -o-border-radius: 2px 0 0 2px;
   border-radius: 2px 0 0 2px;
 }
 .paginator :last-child {
   -webkit-border-radius: 0 2px 2px 0;
   -moz-border-radius: 0 2px 2px 0;
+  -ms-border-radius: 0 2px 2px 0;
+  -o-border-radius: 0 2px 2px 0;
   border-radius: 0 2px 2px 0;
 }
 .paginator a,
@@ -182,6 +198,8 @@ html.ie6 .container {
   padding: 4px 12px;
   -webkit-transition: all 300ms;
   -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
   transition: all 300ms;
 }
 .paginator .current {
@@ -592,6 +610,8 @@ html.ie6 .article input[type=checkbox]:focus-visible {
   border-bottom-color: rgba(175,184,193,0.2);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
   -webkit-box-shadow: inset 0 -1px 0 rgba(175,184,193,0.2);
   -moz-box-shadow: inset 0 -1px 0 rgba(175,184,193,0.2);
@@ -943,6 +963,8 @@ html.ie6 .article kbd {
   background-color: rgba(175,184,193,0.2);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
 }
 .article del code {
@@ -967,6 +989,8 @@ html.ie6 .article kbd {
   color: #586e75;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
   border: 1px dashed #bfbfbf;
 }
@@ -987,6 +1011,8 @@ html.ie6 .article kbd {
   border-right: 1px dashed #bfbfbf;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0;
   text-align: right;
 }
@@ -1005,6 +1031,8 @@ html.ie6 .article kbd {
   line-height: 1.45;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
 }
 .article pre code,
@@ -1075,6 +1103,8 @@ html.ie6 .article kbd {
   border: 2px solid #0969da;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
 }
 .article .footnotes litarget {
@@ -1238,6 +1268,8 @@ html.ie6 .article kbd {
   border-left: 0.4em solid #42b983;
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
   border-radius: 0.2em;
   -webkit-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.05), 0 0 0.05rem rgba(0,0,0,0.1);
   -moz-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.05), 0 0 0.05rem rgba(0,0,0,0.1);
@@ -1265,6 +1297,8 @@ html.ie6 .article .admonition {
   background-color: #42b983;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
   content: ' ';
 }
@@ -1303,6 +1337,8 @@ html.ie6 .article .admonition {
   background-color: #00b8d4;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .article .warning>.admonition-title::before,
@@ -1311,6 +1347,8 @@ html.ie6 .article .admonition {
   background-color: #ff9100;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .article .failure>.admonition-title::before,
@@ -1320,6 +1358,8 @@ html.ie6 .article .admonition {
   background-color: #ff5252;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .article .admonition>:last-child {
@@ -1331,9 +1371,13 @@ html.ie6 .article .admonition {
   cursor: pointer;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
   transition: all 300ms ease;
   display: inline-block;
   font-size: 14px;
@@ -1396,6 +1440,8 @@ nav {
   margin: 20px 0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 .post-cc .bold {
@@ -1446,6 +1492,8 @@ nav {
   border: 13px solid transparent;
   -webkit-transition: 260ms;
   -moz-transition: 260ms;
+  -ms-transition: 260ms;
+  -o-transition: 260ms;
   transition: 260ms;
   border-right: 13px solid rgba(35,35,239,0.1);
 }
@@ -1498,6 +1546,8 @@ nav {
   border: 13px solid transparent;
   -webkit-transition: 260ms;
   -moz-transition: 260ms;
+  -ms-transition: 260ms;
+  -o-transition: 260ms;
   transition: 260ms;
   border-left: 13px solid rgba(35,239,35,0.1);
 }
@@ -1571,6 +1621,8 @@ nav {
   background: #dedede;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .archive .month-group {
@@ -1580,6 +1632,8 @@ nav {
   font-size: 1rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 .archive .month-group::before {
@@ -1598,6 +1652,8 @@ nav {
   position: relative;
   -webkit-transition: all 250ms ease;
   -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
 .archive .post-item::before {
@@ -1624,6 +1680,8 @@ nav {
   margin: 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
   padding: 50px;
   min-height: 200px;
@@ -1639,6 +1697,8 @@ nav {
   padding: 10px 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 .tag-container .tag-list .tag-item:hover {
@@ -1670,6 +1730,8 @@ nav {
   padding: 10px 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 .cates-container .cate-list .cate-item:hover {
@@ -1686,9 +1748,13 @@ nav {
   width: 40px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
   -webkit-transition: all 250ms ease;
   -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
 .to-top:hover {
@@ -1704,6 +1770,8 @@ nav {
   overflow: hidden;
   -webkit-border-radius: 6px 6px 0 0;
   -moz-border-radius: 6px 6px 0 0;
+  -ms-border-radius: 6px 6px 0 0;
+  -o-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
 }
 .page-img-container img {
