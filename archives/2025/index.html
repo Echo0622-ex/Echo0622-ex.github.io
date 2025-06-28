@@ -1,9 +1,21 @@
-{% extends 'includes/layout.swig' %}
+html(lang= config.language)
+  | !{ partial('_partial/head', null, {cache: false}) }
 
-{% block body %}
-<div class="blog-main-post">
-	<div class="index-post-br"></div>
-  {% include 'includes/recent-posts.swig' %}
-  {% include 'includes/pagination.swig' %}
- </div>
-{% endblock %}
+  body
+    .loading-wrapper(data-loading)
+      .loading
+        span
+        span
+        span
+
+    .page(data-filter)
+      .head(data-show)
+        | !{ partial('_partial/header', null, {cache: true}) }
+        | !{ partial('_partial/menubar', null, {cache: true}) }
+
+      .main(data-page= current_page()) !{ body }
+
+      | !{ partial('_partial/footer', null, {cache: true}) }
+      | !{ partial('_partial/after-footer', null, {cache: true}) }
+
+    | !{ partial('_partial/search-modal', null, {cache: true}) }
