@@ -169,11 +169,24 @@
   
   <aside class="sidebar">
 
-<link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
-<script src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
-<script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<!-- require MetingJS-->
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
 <meting-js
-	auto="https://y.qq.com/n/ryqq/songDetail/002wBCwj1G8OoI">
+    server="tencent"
+    type="song"
+    id="002wBCwj1G8OoI"
+    mini="false"
+    fixed="false"
+    list-folded="true"
+    autoplay="false"
+    volume="0.4"
+    theme="#FADFA3"
+    order="list"
+    loop="one" 
+    preload="auto"
+    mutex="true">
 </meting-js>
 
 
