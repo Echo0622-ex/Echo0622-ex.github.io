@@ -166,16 +166,15 @@
   
   <aside class="sidebar">
 
-<!--音乐插件-->
-<!-- require APlayer -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-<!-- require MetingJS-->
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script> 
-<!--QQ音乐外链地址-->   
+<!-- 音乐插件 -->
+<!-- 使用最新版本的 APlayer 和 MetingJS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
+<!-- QQ 音乐外链地址 -->
 <meting-js
     server="tencent"
-    type="song" 
+    type="song"
     id="002wBCwj1G8OoI"
     mini="false"
     fixed="false"
@@ -184,7 +183,7 @@
     volume="0.4"
     theme="#FADFA3"
     order="list"
-    loop="all"
+    loop="one" 
     preload="auto"
     mutex="true">
 </meting-js>
