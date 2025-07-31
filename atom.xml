@@ -6,7 +6,7 @@
   <link href="https://www.mxsby.me/atom.xml" rel="self"/>
   
   <link href="https://www.mxsby.me/"/>
-  <updated>2025-07-31T16:46:56.000Z</updated>
+  <updated>2025-07-08T13:12:26.964Z</updated>
   <id>https://www.mxsby.me/</id>
   
   <author>
@@ -17,9 +17,89 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://www.mxsby.me/2025/08/01/hello-world%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
+    <id>https://www.mxsby.me/2025/08/01/hello-world%20-%20%E5%89%AF%E6%9C%AC%20(2)/</id>
+    <published>2025-07-31T17:30:12.823Z</published>
+    <updated>2025-07-08T13:12:26.964Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.mxsby.me/2025/08/01/hello-world%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://www.mxsby.me/2025/08/01/hello-world%20-%20%E5%89%AF%E6%9C%AC/</id>
+    <published>2025-07-31T17:30:09.623Z</published>
+    <updated>2025-07-08T13:12:26.964Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Next博客美化</title>
     <link href="https://www.mxsby.me/2025/08/01/next%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/"/>
     <id>https://www.mxsby.me/2025/08/01/next%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</id>
+    <published>2025-07-31T16:46:56.000Z</published>
+    <updated>2025-07-31T16:46:56.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.mxsby.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="博客" scheme="https://www.mxsby.me/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Next博客美化</title>
+    <link href="https://www.mxsby.me/2025/08/01/next%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://www.mxsby.me/2025/08/01/next%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%20-%20%E5%89%AF%E6%9C%AC/</id>
+    <published>2025-07-31T16:46:56.000Z</published>
+    <updated>2025-07-31T16:46:56.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.mxsby.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="博客" scheme="https://www.mxsby.me/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Next博客美化</title>
+    <link href="https://www.mxsby.me/2025/08/01/next%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
+    <id>https://www.mxsby.me/2025/08/01/next%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%20-%20%E5%89%AF%E6%9C%AC%20(2)/</id>
     <published>2025-07-31T16:46:56.000Z</published>
     <updated>2025-07-31T16:46:56.000Z</updated>
     
@@ -61,9 +141,97 @@
   </entry>
   
   <entry>
+    <title>第二篇博客文章</title>
+    <link href="https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%20-%20%E5%89%AF%E6%9C%AC/</id>
+    <published>2025-07-31T00:03:04.000Z</published>
+    <updated>2025-07-31T00:03:04.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://www.mxsby.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="人生" scheme="https://www.mxsby.me/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇博客文章</title>
+    <link href="https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
+    <id>https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%20-%20%E5%89%AF%E6%9C%AC%20(2)/</id>
+    <published>2025-07-31T00:03:04.000Z</published>
+    <updated>2025-07-31T00:03:04.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://www.mxsby.me/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="人生" scheme="https://www.mxsby.me/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>第一篇博客</title>
     <link href="https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2025-07-30T20:35:08.000Z</published>
+    <updated>2025-07-31T17:03:35.805Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://www.mxsby.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://www.mxsby.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇博客</title>
+    <link href="https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%20-%20%E5%89%AF%E6%9C%AC/</id>
+    <published>2025-07-30T20:35:08.000Z</published>
+    <updated>2025-07-31T17:03:35.805Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://www.mxsby.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://www.mxsby.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇博客</title>
+    <link href="https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
+    <id>https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%20-%20%E5%89%AF%E6%9C%AC%20(2)/</id>
     <published>2025-07-30T20:35:08.000Z</published>
     <updated>2025-07-31T17:03:35.805Z</updated>
     
