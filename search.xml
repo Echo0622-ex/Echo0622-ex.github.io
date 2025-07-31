@@ -179,15 +179,15 @@
   <entry>
     <title>MarkDown语法学习（自用）</title>
     <url>/2025/08/01/MarkDown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%EF%BC%88%E8%87%AA%E7%94%A8%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>
-
-<h2 id="1-使用-和-表示斜体和粗体。"><a href="#1-使用-和-表示斜体和粗体。" class="headerlink" title="1.使用 * 和 ** 表示斜体和粗体。"></a>1.使用 * 和 ** 表示斜体和粗体。</h2><p>例子：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="1-使用-和-表示斜体和粗体。"><a href="#1-使用-和-表示斜体和粗体。" class="headerlink" title="1.使用 * 和 ** 表示斜体和粗体。"></a>1.使用 * 和 ** 表示斜体和粗体。</h2><p>例子：</p>
 <blockquote>
 <p>这是 <em>斜体</em>，这是 <strong>粗体</strong>。</p>
 </blockquote>
 <h2 id="2-使用-分级标题-记得-之后空格写标题，大纲通常是通过标题层级自动生成的"><a href="#2-使用-分级标题-记得-之后空格写标题，大纲通常是通过标题层级自动生成的" class="headerlink" title="2.使用#分级标题,记得#之后空格写标题，大纲通常是通过标题层级自动生成的"></a>2.使用#分级标题,记得#之后空格写标题，大纲通常是通过<strong>标题层级</strong>自动生成的</h2><p>例子：</p>
 <blockquote>
 <h1 id="h1"><a href="#h1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2"><a href="#h2" class="headerlink" title="h2"></a>h2</h2></blockquote>
+<span id="more"></span>
+
 <h2 id="3-外连接使用-描述-为文字增加外链接-貌似直接复制粘贴网址就行"><a href="#3-外连接使用-描述-为文字增加外链接-貌似直接复制粘贴网址就行" class="headerlink" title="3.外连接使用 描述 为文字增加外链接,貌似直接复制粘贴网址就行"></a>3.外连接使用 <a href="%E5%9C%B0%E5%9D%80">描述</a> 为文字增加外链接,貌似直接复制粘贴网址就行</h2><p>例子：</p>
 <blockquote>
 <p><a href="https://mxsby.me/">杪夏山不语</a></p>
@@ -227,7 +227,10 @@
 <blockquote>
 <p><img src="https://pic1.imgdb.cn/item/688beb5258cb8da5c8f67ed4.png" alt="夜色"></p>
 </blockquote>
-<h2 id="9-内容截断标记，当文章中插入-时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）"><a href="#9-内容截断标记，当文章中插入-时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）" class="headerlink" title="9.内容截断标记，当文章中插入 &lt;!--more--&gt;时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）"></a>9.内容截断标记，当文章中插入 <code>&lt;!--more--&gt;</code>时，在博客首页、列表页等地方，只会显示该标记<strong>之前的内容</strong>（作为文章摘要）</h2>]]></content>
+<h2 id="9-内容截断标记，当文章中插入-时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）"><a href="#9-内容截断标记，当文章中插入-时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）" class="headerlink" title="9.内容截断标记，当文章中插入 &lt;!--more--&gt;时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）"></a>9.内容截断标记，当文章中插入 <code>&lt;!--more--&gt;</code>时，在博客首页、列表页等地方，只会显示该标记<strong>之前的内容</strong>（作为文章摘要）</h2><h2 id="10-代码语法-使用"><a href="#10-代码语法-使用" class="headerlink" title="10.代码语法 使用&#96;&#96;&#96;&#96;&#96;&#96;"></a>10.代码语法 使用&#96;&#96;&#96;&#96;&#96;&#96;</h2><p>例子：</p>
+<blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;def fibonacci(n):</span><br><span class="line">   &quot;&quot;&quot;计算斐波那契数列前n项&quot;&quot;&quot;</span><br><span class="line">   if n &lt;= 0:</span><br><span class="line">       return []</span><br><span class="line">   elif n == 1:</span><br><span class="line">       return [0]</span><br><span class="line">   </span><br><span class="line">   fib_sequence = [0, 1]</span><br><span class="line">   for i in range(2, n):</span><br><span class="line">       next_num = fib_sequence[i-1] + fib_sequence[i-2]</span><br><span class="line">       fib_sequence.append(next_num)</span><br><span class="line">   </span><br><span class="line">   return fib_sequence</span><br><span class="line"></span><br><span class="line">&gt;# 示例：计算前10项斐波那契数列</span><br><span class="line">&gt;result = fibonacci(10)</span><br><span class="line">&gt;print(&quot;斐波那契数列前10项：&quot;, result)</span><br></pre></td></tr></table></figure></blockquote>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
