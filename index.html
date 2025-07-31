@@ -166,13 +166,51 @@
   <aside class="sidebar">
 
 
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
- 
+
+<!-- 音乐播放器 -->
 <meting-js server="tencent" type="playlist" id="3725584828"></meting-js>
 
+<!-- 深色模式样式 -->
+<style>
+/* 深色模式激活时的播放器样式 */
+body.dark .aplayer {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+  border-color: #333 !important;
+}
+
+/* 调整文字和控制元素颜色 */
+body.dark .aplayer-music,
+body.dark .aplayer-author,
+body.dark .aplayer-button {
+  color: #ddd !important;
+}
+
+/* 进度条样式调整 */
+body.dark .aplayer-loaded {
+  background: #444 !important;
+}
+body.dark .aplayer-played {
+  background: #66ccff !important;
+}
+</style>
+
+<!-- 深色模式切换逻辑 -->
+<script>
+// 检查系统主题并应用
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  document.body.classList.add('dark');
+}
+
+// 监听系统主题变化
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+  e.matches ? document.body.classList.add('dark') : document.body.classList.remove('dark');
+});
+</script>
+    
 
     <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
