@@ -6,7 +6,7 @@
   <link href="https://www.mxsby.me/atom.xml" rel="self"/>
   
   <link href="https://www.mxsby.me/"/>
-  <updated>2025-07-31T22:09:28.000Z</updated>
+  <updated>2025-07-31T22:51:56.000Z</updated>
   <id>https://www.mxsby.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MarkDown语法学习（自用）</title>
+    <link href="https://www.mxsby.me/2025/08/01/MarkDown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%EF%BC%88%E8%87%AA%E7%94%A8%EF%BC%89/"/>
+    <id>https://www.mxsby.me/2025/08/01/MarkDown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%EF%BC%88%E8%87%AA%E7%94%A8%EF%BC%89/</id>
+    <published>2025-07-31T22:51:56.000Z</published>
+    <updated>2025-07-31T22:51:56.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.mxsby.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="学习" scheme="https://www.mxsby.me/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>MarkDown语法使用测试</title>
