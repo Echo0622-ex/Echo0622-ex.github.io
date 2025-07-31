@@ -132,4 +132,49 @@
         <tag>人生</tag>
       </tags>
   </entry>
+  <entry>
+    <title>MarkDown语法使用测试</title>
+    <url>/2025/08/01/MarkDown%E8%AF%AD%E6%B3%95%E4%BD%BF%E7%94%A8%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>#一级标题</p>
+<p>##二级标题</p>
+<p>###三级标题</p>
+<p>这是去往<a href="https://mxsby.me/">杪夏山不语</a>的链接</p>
+<p>*无须列表一</p>
+<p>-无序列表二</p>
+<p>+无序列表三</p>
+<span id="more"></span>
+
+<p>1.有序列表1</p>
+<p>2.有序列表2</p>
+<blockquote>
+<p>野火烧不尽，春风吹又生</p>
+<blockquote>
+<p>bbb</p>
+<blockquote>
+<p>ccc</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>让我们聊聊<code>html</code></p>
+<p>​    这是一个代码块，左侧有四个不可见的空格</p>
+<p>！<a href="https://pic1.imgdb.cn/item/688beb5258cb8da5c8f67ed4.png">https://pic1.imgdb.cn/item/688beb5258cb8da5c8f67ed4.png</a></p>
+<p><i>斜体</i></p>
+<p><b>加粗</b></p>
+<p><em>强调</em></p>
+<p><em>斜体</em></p>
+<p><strong>加粗</strong></p>
+<p><strong><strong>加粗+斜体</strong></strong></p>
+<p><del>删除线</del></p>
+<p>…</p>
+<p>&#x2F;**<br>* nth element in the fibonacci series.<br>* @param n &gt;&#x3D; 0<br>* @return the nth element, &gt;&#x3D; 0.<br>*&#x2F;<br>function fib(n) {<br> var a &#x3D; 1, b &#x3D; 1;<br> var tmp;<br> while (–n &gt;&#x3D; 0) {<br>  tmp &#x3D; a;<br>  a +&#x3D; b;<br>  b &#x3D; tmp;<br> }<br> return a;<br>}</p>
+<p>document.write(fib(10));</p>
+<p>…</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
 </search>
