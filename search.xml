@@ -44,7 +44,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>next博客美化</title>
+    <title>Next博客美化</title>
     <url>/2025/08/01/next%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一、什么是-MetingJS？"><a href="#一、什么是-MetingJS？" class="headerlink" title="一、什么是 MetingJS？"></a>一、什么是 MetingJS？</h2><p>MetingJS 是一款基于 Meting API 的轻量级音乐播放器插件，支持网易云、QQ音乐、酷狗等多个平台的音乐播放，可通过简单配置嵌入网页或 Markdown 文档（需编辑器支持 HTML 解析）。</p>
 <h2 id="二、准备工作"><a href="#二、准备工作" class="headerlink" title="二、准备工作"></a>二、准备工作</h2><h3 id="1-依赖资源引入"><a href="#1-依赖资源引入" class="headerlink" title="1. 依赖资源引入"></a>1. 依赖资源引入</h3><p>在文档中插入以下代码，引入 MetingJS 所需的依赖（需放在播放器代码之前）：</p>
