@@ -465,28 +465,34 @@ article .aplayer .aplayer-info {
 <!-- 网站运行时间的设置 -->
 <span id="totalTime">载入时间...</span>
 <script>
-    var now = new Date();
     function createtime() {
-        var grt= new Date("31/07/2025 01:00:00"); // 建站时间
-        now.setTime(now.getTime()+250);
-        days = (now - grt ) / 1000 / 60 / 60 / 24; 
-        dnum = Math.floor(days);
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); 
-        hnum = Math.floor(hours);
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} 
-        minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes); 
-        if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds); 
-        if(String(snum).length ==1 ){snum = "0" + snum;}
+        // 正确的日期格式：年, 月(0-11), 日, 时, 分, 秒
+        // 31/07/2025 对应 2025年7月31日（注意月份是6，因为从0开始计数）
+        var grt = new Date(2025, 6, 31, 1, 0, 0); 
+        var now = new Date();
+        var diff = now - grt; // 计算时间差（毫秒）
         
-        // 合并为一个元素
+        // 计算天、时、分、秒
+        var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        
+        // 补零操作
+        hours = hours < 10 ? "0" + hours : hours;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        
+        // 更新显示
         document.getElementById("totalTime").innerHTML = 
-            "本站已安全运行 "+dnum+" 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒.";
+            "本站已安全运行 " + days + " 天 " + hours + " 小时 " + minutes + " 分 " + seconds + " 秒.";
     }
-    setInterval(createtime, 250);
+    // 立即执行一次，避免初始延迟
+    createtime();
+    // 每秒更新一次（1000毫秒），没必要250毫秒这么频繁
+    setInterval(createtime, 1000);
 </script>
+
     
     
 
