@@ -125,6 +125,34 @@
       </tags>
   </entry>
   <entry>
+    <title>第一篇博客</title>
+    <url>/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="夏末随笔"><a href="#夏末随笔" class="headerlink" title="夏末随笔"></a>夏末随笔</h2><p>傍晚的风终于有了些凉意，卷着梧桐叶在楼下打了个旋。晾在阳台的白衬衫被吹得晃晃悠悠，像只欲飞的鸟，却被晾衣绳牵住了翅膀。</p>
+<p>泡了杯龙井，茶叶在玻璃杯里浮浮沉沉，最后舒展成一芽一叶的模样。想起早上路过巷口的早点铺，老板娘正把刚出炉的烧饼摆上竹篮，芝麻的香气漫过半条街。那时候突然觉得，所谓安稳，或许就是这样被烟火气裹着的寻常时刻。</p>
+<p>整理旧书时翻到几张褪色的车票，从南到北，从春到秋。原来已经走过那么多地方，有些风景记不清了，却记得某个雨天车站里，陌生人递来的半把伞。</p>
+<p>夜渐深，远处的路灯亮起来，在窗玻璃上投下模糊的光晕。电脑里放着循环的纯音乐，指尖敲在键盘上的声音很轻，像怕惊扰了这夏末最后的温柔。</p>
+<p>其实日子大抵如此，没有太多波澜，却在细碎处藏着微光。就像此刻杯底的茶渍，不显眼，却盛过一整个下午的安宁。</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第二篇博客文章</title>
+    <url>/2025/07/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人生就像一场没有彩排的旅行，沿途的每一道风景都是独一无二的馈赠，无论是晴空万里的坦途，还是风雨交加的歧路，最终都会沉淀成生命里不可复制的印记。<br>我们在得到与失去中学会取舍，在相遇与离别中懂得珍惜，所谓成长，不过是把哭声调成静音的过程，把弯路走成风景的智慧。<br>不必纠结于 “为什么”，多想想 “如何做”—— 毕竟，重要的不是起点有多高，而是脚步是否从未停歇。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>人生</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Next博客美化</title>
     <url>/2025/08/01/next%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一、什么是-MetingJS？"><a href="#一、什么是-MetingJS？" class="headerlink" title="一、什么是 MetingJS？"></a>一、什么是 MetingJS？</h2><p>MetingJS 是一款基于 Meting API 的轻量级音乐播放器插件，支持网易云、QQ音乐、酷狗等多个平台的音乐播放，可通过简单配置嵌入网页或 Markdown 文档（需编辑器支持 HTML 解析）。</p>
@@ -208,34 +236,6 @@
       </categories>
       <tags>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第二篇博客文章</title>
-    <url>/2025/07/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人生就像一场没有彩排的旅行，沿途的每一道风景都是独一无二的馈赠，无论是晴空万里的坦途，还是风雨交加的歧路，最终都会沉淀成生命里不可复制的印记。<br>我们在得到与失去中学会取舍，在相遇与离别中懂得珍惜，所谓成长，不过是把哭声调成静音的过程，把弯路走成风景的智慧。<br>不必纠结于 “为什么”，多想想 “如何做”—— 毕竟，重要的不是起点有多高，而是脚步是否从未停歇。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>人生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一篇博客</title>
-    <url>/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="夏末随笔"><a href="#夏末随笔" class="headerlink" title="夏末随笔"></a>夏末随笔</h2><p>傍晚的风终于有了些凉意，卷着梧桐叶在楼下打了个旋。晾在阳台的白衬衫被吹得晃晃悠悠，像只欲飞的鸟，却被晾衣绳牵住了翅膀。</p>
-<p>泡了杯龙井，茶叶在玻璃杯里浮浮沉沉，最后舒展成一芽一叶的模样。想起早上路过巷口的早点铺，老板娘正把刚出炉的烧饼摆上竹篮，芝麻的香气漫过半条街。那时候突然觉得，所谓安稳，或许就是这样被烟火气裹着的寻常时刻。</p>
-<p>整理旧书时翻到几张褪色的车票，从南到北，从春到秋。原来已经走过那么多地方，有些风景记不清了，却记得某个雨天车站里，陌生人递来的半把伞。</p>
-<p>夜渐深，远处的路灯亮起来，在窗玻璃上投下模糊的光晕。电脑里放着循环的纯音乐，指尖敲在键盘上的声音很轻，像怕惊扰了这夏末最后的温柔。</p>
-<p>其实日子大抵如此，没有太多波澜，却在细碎处藏着微光。就像此刻杯底的茶渍，不显眼，却盛过一整个下午的安宁。</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
       </tags>
   </entry>
 </search>
