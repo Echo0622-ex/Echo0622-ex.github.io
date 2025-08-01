@@ -45,22 +45,66 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/07/08/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>MarkDown语法学习（自用）</title>
+    <url>/2025/08/01/MarkDown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%EF%BC%88%E8%87%AA%E7%94%A8%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="1-使用-和-表示斜体和粗体。"><a href="#1-使用-和-表示斜体和粗体。" class="headerlink" title="1.使用 * 和 ** 表示斜体和粗体。"></a>1.使用 * 和 ** 表示斜体和粗体。</h2><p>例子：</p>
+<blockquote>
+<p>这是 <em>斜体</em>，这是 <strong>粗体</strong>。</p>
+</blockquote>
+<h2 id="2-使用-分级标题-记得-之后空格写标题，大纲通常是通过标题层级自动生成的"><a href="#2-使用-分级标题-记得-之后空格写标题，大纲通常是通过标题层级自动生成的" class="headerlink" title="2.使用#分级标题,记得#之后空格写标题，大纲通常是通过标题层级自动生成的"></a>2.使用#分级标题,记得#之后空格写标题，大纲通常是通过<strong>标题层级</strong>自动生成的</h2><p>例子：</p>
+<blockquote>
+<h1 id="h1"><a href="#h1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2"><a href="#h2" class="headerlink" title="h2"></a>h2</h2></blockquote>
+<span id="more"></span>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="3-外连接使用-描述-为文字增加外链接-貌似直接复制粘贴网址就行"><a href="#3-外连接使用-描述-为文字增加外链接-貌似直接复制粘贴网址就行" class="headerlink" title="3.外连接使用 描述 为文字增加外链接,貌似直接复制粘贴网址就行"></a>3.外连接使用 <a href="%E5%9C%B0%E5%9D%80">描述</a> 为文字增加外链接,貌似直接复制粘贴网址就行</h2><p>例子：</p>
+<blockquote>
+<p><a href="https://mxsby.me/">杪夏山不语</a></p>
+</blockquote>
+<h2 id="4-无序列表使用-，-，-空格后在写"><a href="#4-无序列表使用-，-，-空格后在写" class="headerlink" title="4.无序列表使用*，+，-空格后在写"></a>4.无序列表使用*，+，-空格后在写</h2><p>例子：</p>
+<blockquote>
+<ul>
+<li>无序列表一</li>
+</ul>
+<ul>
+<li>无序列表二<ul>
+<li>无序列表三</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h2 id="5-有序列表直接数字加点，空格后写"><a href="#5-有序列表直接数字加点，空格后写" class="headerlink" title="5.有序列表直接数字加点，空格后写"></a>5.有序列表直接数字加点，空格后写</h2><p>例子：</p>
+<blockquote>
+<ol>
+<li>有序列表一</li>
+<li>有序列表二<ol start="3">
+<li>有序列表三</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<h2 id="6-文字引用，使用-表示引用"><a href="#6-文字引用，使用-表示引用" class="headerlink" title="6.文字引用，使用&gt;表示引用"></a>6.文字引用，使用&gt;表示引用</h2><p>例子：</p>
+<blockquote>
+<p>七月盛夏</p>
+</blockquote>
+<h2 id="7-行内代码块，使用代码表示；代码块，使用四个空格表示"><a href="#7-行内代码块，使用代码表示；代码块，使用四个空格表示" class="headerlink" title="7.行内代码块，使用代码表示；代码块，使用四个空格表示"></a>7.行内代码块，使用<code>代码</code>表示；代码块，使用四个空格表示</h2><p>例子：</p>
+<blockquote>
+<p><code>html</code></p>
+<p>​    代码块</p>
+</blockquote>
+<h2 id="8-插入图像，使用-描述-图片链接地址-插入图像。"><a href="#8-插入图像，使用-描述-图片链接地址-插入图像。" class="headerlink" title="8.插入图像，使用 ![描述](图片链接地址) 插入图像。"></a>8.插入图像，使用 <code>![描述](图片链接地址)</code> 插入图像。</h2><p>例子：</p>
+<blockquote>
+<p><img src="https://pic1.imgdb.cn/item/688beb5258cb8da5c8f67ed4.png" alt="夜色"></p>
+</blockquote>
+<h2 id="9-内容截断标记，当文章中插入-时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）"><a href="#9-内容截断标记，当文章中插入-时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）" class="headerlink" title="9.内容截断标记，当文章中插入 &lt;!--more--&gt;时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）"></a>9.内容截断标记，当文章中插入 <code>&lt;!--more--&gt;</code>时，在博客首页、列表页等地方，只会显示该标记<strong>之前的内容</strong>（作为文章摘要）</h2><h2 id="10-代码语法-使用"><a href="#10-代码语法-使用" class="headerlink" title="10.代码语法 使用&#96;&#96;&#96;&#96;&#96;&#96;"></a>10.代码语法 使用&#96;&#96;&#96;&#96;&#96;&#96;</h2><p>例子：</p>
+<blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;def fibonacci(n):</span><br><span class="line">   &quot;&quot;&quot;计算斐波那契数列前n项&quot;&quot;&quot;</span><br><span class="line">   if n &lt;= 0:</span><br><span class="line">       return []</span><br><span class="line">   elif n == 1:</span><br><span class="line">       return [0]</span><br><span class="line">   </span><br><span class="line">   fib_sequence = [0, 1]</span><br><span class="line">   for i in range(2, n):</span><br><span class="line">       next_num = fib_sequence[i-1] + fib_sequence[i-2]</span><br><span class="line">       fib_sequence.append(next_num)</span><br><span class="line">   </span><br><span class="line">   return fib_sequence</span><br><span class="line"></span><br><span class="line">&gt;# 示例：计算前10项斐波那契数列</span><br><span class="line">&gt;result = fibonacci(10)</span><br><span class="line">&gt;print(&quot;斐波那契数列前10项：&quot;, result)</span><br></pre></td></tr></table></figure></blockquote>
 ]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
   </entry>
   <entry>
     <title>Next博客美化</title>
@@ -149,18 +193,6 @@
       </tags>
   </entry>
   <entry>
-    <title>第二篇博客文章</title>
-    <url>/2025/07/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人生就像一场没有彩排的旅行，沿途的每一道风景都是独一无二的馈赠，无论是晴空万里的坦途，还是风雨交加的歧路，最终都会沉淀成生命里不可复制的印记。<br>我们在得到与失去中学会取舍，在相遇与离别中懂得珍惜，所谓成长，不过是把哭声调成静音的过程，把弯路走成风景的智慧。<br>不必纠结于 “为什么”，多想想 “如何做”—— 毕竟，重要的不是起点有多高，而是脚步是否从未停歇。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>人生</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>第一篇博客</title>
     <url>/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="夏末随笔"><a href="#夏末随笔" class="headerlink" title="夏末随笔"></a>夏末随笔</h2><p>傍晚的风终于有了些凉意，卷着梧桐叶在楼下打了个旋。晾在阳台的白衬衫被吹得晃晃悠悠，像只欲飞的鸟，却被晾衣绳牵住了翅膀。</p>
@@ -177,65 +209,33 @@
       </tags>
   </entry>
   <entry>
-    <title>MarkDown语法学习（自用）</title>
-    <url>/2025/08/01/MarkDown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%EF%BC%88%E8%87%AA%E7%94%A8%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="1-使用-和-表示斜体和粗体。"><a href="#1-使用-和-表示斜体和粗体。" class="headerlink" title="1.使用 * 和 ** 表示斜体和粗体。"></a>1.使用 * 和 ** 表示斜体和粗体。</h2><p>例子：</p>
-<blockquote>
-<p>这是 <em>斜体</em>，这是 <strong>粗体</strong>。</p>
-</blockquote>
-<h2 id="2-使用-分级标题-记得-之后空格写标题，大纲通常是通过标题层级自动生成的"><a href="#2-使用-分级标题-记得-之后空格写标题，大纲通常是通过标题层级自动生成的" class="headerlink" title="2.使用#分级标题,记得#之后空格写标题，大纲通常是通过标题层级自动生成的"></a>2.使用#分级标题,记得#之后空格写标题，大纲通常是通过<strong>标题层级</strong>自动生成的</h2><p>例子：</p>
-<blockquote>
-<h1 id="h1"><a href="#h1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2"><a href="#h2" class="headerlink" title="h2"></a>h2</h2></blockquote>
-<span id="more"></span>
-
-<h2 id="3-外连接使用-描述-为文字增加外链接-貌似直接复制粘贴网址就行"><a href="#3-外连接使用-描述-为文字增加外链接-貌似直接复制粘贴网址就行" class="headerlink" title="3.外连接使用 描述 为文字增加外链接,貌似直接复制粘贴网址就行"></a>3.外连接使用 <a href="%E5%9C%B0%E5%9D%80">描述</a> 为文字增加外链接,貌似直接复制粘贴网址就行</h2><p>例子：</p>
-<blockquote>
-<p><a href="https://mxsby.me/">杪夏山不语</a></p>
-</blockquote>
-<h2 id="4-无序列表使用-，-，-空格后在写"><a href="#4-无序列表使用-，-，-空格后在写" class="headerlink" title="4.无序列表使用*，+，-空格后在写"></a>4.无序列表使用*，+，-空格后在写</h2><p>例子：</p>
-<blockquote>
-<ul>
-<li>无序列表一</li>
-</ul>
-<ul>
-<li>无序列表二<ul>
-<li>无序列表三</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<h2 id="5-有序列表直接数字加点，空格后写"><a href="#5-有序列表直接数字加点，空格后写" class="headerlink" title="5.有序列表直接数字加点，空格后写"></a>5.有序列表直接数字加点，空格后写</h2><p>例子：</p>
-<blockquote>
-<ol>
-<li>有序列表一</li>
-<li>有序列表二<ol start="3">
-<li>有序列表三</li>
-</ol>
-</li>
-</ol>
-</blockquote>
-<h2 id="6-文字引用，使用-表示引用"><a href="#6-文字引用，使用-表示引用" class="headerlink" title="6.文字引用，使用&gt;表示引用"></a>6.文字引用，使用&gt;表示引用</h2><p>例子：</p>
-<blockquote>
-<p>七月盛夏</p>
-</blockquote>
-<h2 id="7-行内代码块，使用代码表示；代码块，使用四个空格表示"><a href="#7-行内代码块，使用代码表示；代码块，使用四个空格表示" class="headerlink" title="7.行内代码块，使用代码表示；代码块，使用四个空格表示"></a>7.行内代码块，使用<code>代码</code>表示；代码块，使用四个空格表示</h2><p>例子：</p>
-<blockquote>
-<p><code>html</code></p>
-<p>​    代码块</p>
-</blockquote>
-<h2 id="8-插入图像，使用-描述-图片链接地址-插入图像。"><a href="#8-插入图像，使用-描述-图片链接地址-插入图像。" class="headerlink" title="8.插入图像，使用 ![描述](图片链接地址) 插入图像。"></a>8.插入图像，使用 <code>![描述](图片链接地址)</code> 插入图像。</h2><p>例子：</p>
-<blockquote>
-<p><img src="https://pic1.imgdb.cn/item/688beb5258cb8da5c8f67ed4.png" alt="夜色"></p>
-</blockquote>
-<h2 id="9-内容截断标记，当文章中插入-时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）"><a href="#9-内容截断标记，当文章中插入-时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）" class="headerlink" title="9.内容截断标记，当文章中插入 &lt;!--more--&gt;时，在博客首页、列表页等地方，只会显示该标记之前的内容（作为文章摘要）"></a>9.内容截断标记，当文章中插入 <code>&lt;!--more--&gt;</code>时，在博客首页、列表页等地方，只会显示该标记<strong>之前的内容</strong>（作为文章摘要）</h2><h2 id="10-代码语法-使用"><a href="#10-代码语法-使用" class="headerlink" title="10.代码语法 使用&#96;&#96;&#96;&#96;&#96;&#96;"></a>10.代码语法 使用&#96;&#96;&#96;&#96;&#96;&#96;</h2><p>例子：</p>
-<blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;def fibonacci(n):</span><br><span class="line">   &quot;&quot;&quot;计算斐波那契数列前n项&quot;&quot;&quot;</span><br><span class="line">   if n &lt;= 0:</span><br><span class="line">       return []</span><br><span class="line">   elif n == 1:</span><br><span class="line">       return [0]</span><br><span class="line">   </span><br><span class="line">   fib_sequence = [0, 1]</span><br><span class="line">   for i in range(2, n):</span><br><span class="line">       next_num = fib_sequence[i-1] + fib_sequence[i-2]</span><br><span class="line">       fib_sequence.append(next_num)</span><br><span class="line">   </span><br><span class="line">   return fib_sequence</span><br><span class="line"></span><br><span class="line">&gt;# 示例：计算前10项斐波那契数列</span><br><span class="line">&gt;result = fibonacci(10)</span><br><span class="line">&gt;print(&quot;斐波那契数列前10项：&quot;, result)</span><br></pre></td></tr></table></figure></blockquote>
+    <title>第二篇博客文章</title>
+    <url>/2025/07/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人生就像一场没有彩排的旅行，沿途的每一道风景都是独一无二的馈赠，无论是晴空万里的坦途，还是风雨交加的歧路，最终都会沉淀成生命里不可复制的印记。<br>我们在得到与失去中学会取舍，在相遇与离别中懂得珍惜，所谓成长，不过是把哭声调成静音的过程，把弯路走成风景的智慧。<br>不必纠结于 “为什么”，多想想 “如何做”—— 毕竟，重要的不是起点有多高，而是脚步是否从未停歇。</p>
 ]]></content>
       <categories>
-        <category>技术</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>学习</tag>
+        <tag>人生</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2025/07/08/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
 </search>
