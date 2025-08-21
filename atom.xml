@@ -45,7 +45,7 @@
     <link href="https://www.mxsby.me/2025/08/21/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1%E5%8A%A0%E8%BD%BD%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90/"/>
     <id>https://www.mxsby.me/2025/08/21/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1%E5%8A%A0%E8%BD%BD%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90/</id>
     <published>2025-08-21T10:52:05.000Z</published>
-    <updated>2025-08-21T12:39:42.556Z</updated>
+    <updated>2025-08-21T12:59:50.832Z</updated>
     
     <content type="html"><![CDATA[<h1 id="使用网易爆米花加载夸克网盘影视资源，需要先在电脑上通过alist挂载夸克网盘，然后在网易爆米花中通过WebDAV功能连接alist，从而实现加载夸克网盘影视资源"><a href="#使用网易爆米花加载夸克网盘影视资源，需要先在电脑上通过alist挂载夸克网盘，然后在网易爆米花中通过WebDAV功能连接alist，从而实现加载夸克网盘影视资源" class="headerlink" title="使用网易爆米花加载夸克网盘影视资源，需要先在电脑上通过alist挂载夸克网盘，然后在网易爆米花中通过WebDAV功能连接alist，从而实现加载夸克网盘影视资源."></a>使用网易爆米花加载夸克网盘影视资源，需要先在电脑上通过alist挂载夸克网盘，然后在网易爆米花中通过WebDAV功能连接alist，从而实现加载夸克网盘影视资源.</h1><p>具体步骤如下：</p><ol><li><strong>安装alist</strong>：在电脑上安装alist，具体安装方法可参考alist官方文档或相关技术教程。</li><li><strong>挂载夸克网盘</strong>：打开alist的管理界面，在管理设置里点击“存储”，然后选择添加夸克网盘，按照提示登录夸克网盘账号进行挂载。</li><li><strong>确保网络环境一致</strong>：保证alist和网易爆米花在同一网络环境下。</li><li><strong>打开网易爆米花</strong>：在手机或其他设备上打开网易爆米花应用。</li><li><strong>添加资源</strong>：点击网易爆米花主界面中资源库右上角的“+”号，或找到“添加新资源”选项，选择“WebDAV”。</li><li><strong>输入信息</strong>：在WebDAV设置界面，输入alist的用户名、密码以及地址等信息。地址一般为电脑的IPv4地址加上alist的端口号（默认端口为5244）。</li><li><strong>导入资源</strong>：输入完成后，点击确认，网易爆米花会尝试连接alist。连接成功后，勾选想要导入的夸克网盘文件夹，点击确认进行导入。</li><li><strong>播放视频</strong>：网盘视频导入成功后，就可以在网易爆米花里浏览并流畅播放夸克网盘里的影视资源了。<br>具体教程参考：<a href="https://www.bilibili.com/video/BV1EYPLe3Eti/">https://www.bilibili.com/video/BV1EYPLe3Eti/</a></li></ol><h1 id="补充！！！"><a href="#补充！！！" class="headerlink" title="补充！！！"></a>补充！！！</h1><p>因为alist的挂载需要电脑开机并且需要手动开启alist，所以我找到了一个办法，可以让电脑开机后自启动alis，即Alist设置开机后台静默启动，不再其需要手动开启，步骤如下：</p><ol><li><strong>新建文本文档在你alist文件夹内</strong>：在你解压后的alist文件夹下，创建一个“开机 cmd 内静默启动 alist 服务.vbs”的文本文档，在里面加入如下代码：</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Set ws = Wscript.CreateObject(&quot;Wscript.Shell&quot;)</span><br><span class="line">ws.Run &quot;cmd.exe /c alist server&quot;, 0, False</span><br></pre></td></tr></table></figure><ol start="2"><li><strong>创建快捷方式</strong>：还是在alist文件夹下，新建一个快捷键，导入第一步文本文档的位置(鼠标右击“开机 cmd 内静默启动 alist 服务.vbs”文本文档，点击复制文件地址就可以导入了)</li><li><strong>将快捷键剪切到开机启动的文件夹内</strong>：在此电脑的资源管理器地址栏输入路<code>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\启动</code>,将快捷方式剪切到启动文件夹，就完成了</li></ol><h2 id="希望网易爆米花早点实现夸克网盘的加入，也不用费这功夫！"><a href="#希望网易爆米花早点实现夸克网盘的加入，也不用费这功夫！" class="headerlink" title="希望网易爆米花早点实现夸克网盘的加入，也不用费这功夫！"></a>希望网易爆米花早点实现夸克网盘的加入，也不用费这功夫！</h2>]]></content>
     
@@ -57,14 +57,14 @@
     
     
     
-    <category term="alist" scheme="https://www.mxsby.me/categories/alist/"/>
-    
-    <category term="夸克网盘" scheme="https://www.mxsby.me/categories/alist/%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98/"/>
-    
-    <category term="网易爆米花" scheme="https://www.mxsby.me/categories/alist/%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98/%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1/"/>
+    <category term="技术教程" scheme="https://www.mxsby.me/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="技术" scheme="https://www.mxsby.me/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="alist" scheme="https://www.mxsby.me/tags/alist/"/>
+    
+    <category term="夸克网盘" scheme="https://www.mxsby.me/tags/%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98/"/>
+    
+    <category term="网易爆米花" scheme="https://www.mxsby.me/tags/%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1/"/>
     
   </entry>
   
@@ -73,7 +73,7 @@
     <link href="https://www.mxsby.me/2025/08/20/%E6%B5%8B%E8%AF%952/"/>
     <id>https://www.mxsby.me/2025/08/20/%E6%B5%8B%E8%AF%952/</id>
     <published>2025-08-20T07:43:11.000Z</published>
-    <updated>2025-08-20T08:02:54.246Z</updated>
+    <updated>2025-08-21T12:56:07.124Z</updated>
     
     <content type="html"><![CDATA[<h1 id="世界历史发展简览"><a href="#世界历史发展简览" class="headerlink" title="世界历史发展简览"></a>世界历史发展简览</h1><p>人类历史的长河绵延数千年，从原始部落到全球化文明，经历了无数次变革与飞跃。以下从关键时期和文明节点，勾勒出历史发展的基本脉络。</p><h2 id="一、古代文明的曙光（约公元前3500年-公元前500年）"><a href="#一、古代文明的曙光（约公元前3500年-公元前500年）" class="headerlink" title="一、古代文明的曙光（约公元前3500年-公元前500年）"></a>一、古代文明的曙光（约公元前3500年-公元前500年）</h2><p>在底格里斯河与幼发拉底河的冲积平原上，<strong>苏美尔人</strong>于公元前3500年左右建立了人类最早的城邦，发明了楔形文字和太阴历，开启了两河文明的序幕。与此同时，尼罗河流域的古埃及文明以金字塔和象形文字为标志，形成了中央集权的法老制度，其文明延续长达3000年。</p><p>公元前2000年前后，<strong>印度河流域</strong>出现了摩亨佐·达罗等城市遗址，展现出高度发达的城市规划和排水系统。而在黄河流域，夏商周三代逐步孕育了华夏文明的雏形，甲骨文的出现标志着文字体系的成熟。</p><p>这一时期的文明虽相互隔绝，却不约而同地发展出农业灌溉、文字记录和国家形态，为人类文明奠定了物质与制度基础。</p><h2 id="二、古典文明的繁荣与交融（公元前500年-公元500年）"><a href="#二、古典文明的繁荣与交融（公元前500年-公元500年）" class="headerlink" title="二、古典文明的繁荣与交融（公元前500年-公元500年）"></a>二、古典文明的繁荣与交融（公元前500年-公元500年）</h2><p>公元前5世纪至公元2世纪，是各大文明的“黄金时代”。在希腊，雅典的民主制度与苏格拉底、柏拉图的哲学思想熠熠生辉；罗马则通过军事扩张建立起地跨欧亚非的大帝国，其法律体系（如《十二铜表法》）对后世影响深远。</p><p>同一时期的亚洲，<strong>秦汉王朝</strong>统一中国，确立了中央集权的郡县制和科举制雏形，丝绸之路的开通促进了东西方物质与文化交流。印度的孔雀王朝在阿育王统治时期达到鼎盛，佛教开始向外传播。</p><p>公元3世纪后，罗马帝国分裂为东西两部分，西罗马于476年灭亡，标志着欧洲古典时代的终结；而东亚的中华文明则在魏晋南北朝的动荡中延续，并孕育出多元文化融合的趋势。</p><h2 id="三、中古时期的文明碰撞（公元500年-1500年）"><a href="#三、中古时期的文明碰撞（公元500年-1500年）" class="headerlink" title="三、中古时期的文明碰撞（公元500年-1500年）"></a>三、中古时期的文明碰撞（公元500年-1500年）</h2><p>欧洲进入中世纪后，基督教成为社会的精神核心，封建庄园制与教会权力相互交织。拜占庭帝国延续了东罗马的遗产，保存了大量古希腊罗马文献。11世纪起，十字军东征虽带来战乱，却意外促进了欧洲与阿拉伯世界的文化交流。</p><p>阿拉伯文明在这一时期大放异彩，巴格达的“智慧宫”成为学术研究中心，学者们翻译并发展了希腊的科学著作，在数学（代数）、医学（《医典》）等领域取得突破。</p><p>东亚地区，唐宋王朝创造了辉煌的物质文明，活字印刷术、指南针等发明通过阿拉伯商人传入欧洲。13世纪，蒙古帝国的扩张建立起横跨欧亚的交通网络，加速了技术与思想的传播。</p><h2 id="四、近代化的开端与全球联结（1500年-1900年）"><a href="#四、近代化的开端与全球联结（1500年-1900年）" class="headerlink" title="四、近代化的开端与全球联结（1500年-1900年）"></a>四、近代化的开端与全球联结（1500年-1900年）</h2><p>15世纪末的<strong>地理大发现</strong>是历史的重要转折点：哥伦布发现美洲，达伽马开辟新航路，全球贸易网络逐渐形成。欧洲国家通过殖民扩张积累资本，为工业革命奠定基础。</p><p>18世纪60年代，英国率先开启工业革命，蒸汽机的发明推动了生产力的飞跃，资本主义制度在欧美广泛确立。与此同时，民族解放运动席卷美洲和亚洲，美国独立战争（1776年）、法国大革命（1789年）等标志性事件，传播了“自由、平等”的思想。</p><p>这一时期，世界逐渐连为一个整体，但也伴随着殖民掠夺与文明冲突，东方国家在西方的冲击下被迫开启现代化转型。</p><h2 id="五、现代世界的形成与挑战（1900年至今）"><a href="#五、现代世界的形成与挑战（1900年至今）" class="headerlink" title="五、现代世界的形成与挑战（1900年至今）"></a>五、现代世界的形成与挑战（1900年至今）</h2><p>20世纪经历了两次世界大战，重塑了全球格局。二战后，联合国成立，美苏冷战主导了国际关系，亚非拉民族独立运动浪潮终结了殖民时代。</p><p>1991年苏联解体后，世界向多极化发展。信息技术革命（如互联网的普及）使全球化进入新阶段，经济、文化的交流空前密切，但也面临气候变化、贫富差距等全球性挑战。</p><p>回望历史，人类文明在创造辉煌成就的同时，也不断从冲突与危机中汲取教训。理解历史的脉络，或许能为应对当下的挑战提供更深刻的视角。</p>]]></content>
     
@@ -88,7 +88,7 @@
     <category term="历史" scheme="https://www.mxsby.me/categories/%E5%8E%86%E5%8F%B2/"/>
     
     
-    <category term="技术" scheme="https://www.mxsby.me/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="日常生活" scheme="https://www.mxsby.me/tags/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -209,7 +209,7 @@
     <category term="生活" scheme="https://www.mxsby.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="人生" scheme="https://www.mxsby.me/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="日常生活" scheme="https://www.mxsby.me/tags/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -218,7 +218,7 @@
     <link href="https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>https://www.mxsby.me/2025/07/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2025-07-30T20:35:08.000Z</published>
-    <updated>2025-07-31T17:03:35.805Z</updated>
+    <updated>2025-08-21T13:00:31.562Z</updated>
     
     <content type="html"><![CDATA[<h2 id="夏末随笔"><a href="#夏末随笔" class="headerlink" title="夏末随笔"></a>夏末随笔</h2><p>傍晚的风终于有了些凉意，卷着梧桐叶在楼下打了个旋。晾在阳台的白衬衫被吹得晃晃悠悠，像只欲飞的鸟，却被晾衣绳牵住了翅膀。</p><p>泡了杯龙井，茶叶在玻璃杯里浮浮沉沉，最后舒展成一芽一叶的模样。想起早上路过巷口的早点铺，老板娘正把刚出炉的烧饼摆上竹篮，芝麻的香气漫过半条街。那时候突然觉得，所谓安稳，或许就是这样被烟火气裹着的寻常时刻。</p><p>整理旧书时翻到几张褪色的车票，从南到北，从春到秋。原来已经走过那么多地方，有些风景记不清了，却记得某个雨天车站里，陌生人递来的半把伞。</p><p>夜渐深，远处的路灯亮起来，在窗玻璃上投下模糊的光晕。电脑里放着循环的纯音乐，指尖敲在键盘上的声音很轻，像怕惊扰了这夏末最后的温柔。</p><p>其实日子大抵如此，没有太多波澜，却在细碎处藏着微光。就像此刻杯底的茶渍，不显眼，却盛过一整个下午的安宁。</p>]]></content>
     
@@ -230,7 +230,7 @@
     
     
     
-    <category term="随笔" scheme="https://www.mxsby.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="日常生活" scheme="https://www.mxsby.me/categories/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/"/>
     
     
     <category term="随笔" scheme="https://www.mxsby.me/tags/%E9%9A%8F%E7%AC%94/"/>
