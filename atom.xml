@@ -6,7 +6,7 @@
   <link href="https://www.mxsby.me/atom.xml" rel="self"/>
   
   <link href="https://www.mxsby.me/"/>
-  <updated>2025-08-20T08:02:54.246Z</updated>
+  <updated>2025-08-21T11:01:31.331Z</updated>
   <id>https://www.mxsby.me/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何使用网易爆米花加载夸克网盘影视资源</title>
+    <link href="https://www.mxsby.me/2025/08/21/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1%E5%8A%A0%E8%BD%BD%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90/"/>
+    <id>https://www.mxsby.me/2025/08/21/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1%E5%8A%A0%E8%BD%BD%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90/</id>
+    <published>2025-08-21T10:52:05.000Z</published>
+    <updated>2025-08-21T11:01:31.331Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用网易爆米花加载夸克网盘影视资源，需要先在电脑上通过 alist 挂载夸克网盘，然后在网易爆米花中通过 WebDAV 功能连接 alist，从而实现加载夸克网盘影视资源，具体步骤如下：<br>安装 alist：在电脑上安装 alist，具体安装方法可参考 alist 官方文档或相关技术教程。<br>挂载夸克网盘：打开 alist 的管理界面，在管理设置里点击 “存储”，然后选择添加夸克网盘，按照提示登录夸克网盘账号进行挂载。<br>确保网络环境一致：保证 alist 和网易爆米花在同一网络环境下。<br>打开网易爆米花：在手机或其他设备上打开网易爆米花应用。<br>添加资源：点击网易爆米花主界面中资源库右上角的 “+” 号，或找到 “添加新资源” 选项，选择 “WebDAV”。<br>输入信息：在 WebDAV 设置界面，输入 alist 的用户名、密码以及地址等信息。地址一般为电脑的 IPv4 地址加上 alist 的端口号（默认端口为 5244）。<br>导入资源：输入完成后，点击确认，网易爆米花会尝试连接 alist。连接成功后，勾选想要导入的夸克网盘文件夹，点击确认进行导入。<br>播放视频：网盘视频导入成功后，就可以在网易爆米花里浏览并流畅播放夸克网盘里的影视资源了。<br>具体教程参考：<a href="https://www.bilibili.com/video/BV1EYPLe3Eti/">https://www.bilibili.com/video/BV1EYPLe3Eti/</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;使用网易爆米花加载夸克网盘影视资源，需要先在电脑上通过 alist 挂载夸克网盘，然后在网易爆米花中通过 WebDAV 功能连接 alist，从而实现加载夸克网盘影视资源，具体步骤如下：&lt;br&gt;安装 alist：在电脑上安装 alist，具体安装方法可参考 alist 官方</summary>
+      
+    
+    
+    
+    <category term="alist" scheme="https://www.mxsby.me/categories/alist/"/>
+    
+    <category term="夸克网盘" scheme="https://www.mxsby.me/categories/alist/%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98/"/>
+    
+    <category term="网易爆米花" scheme="https://www.mxsby.me/categories/alist/%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98/%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1/"/>
+    
+    
+    <category term="技术" scheme="https://www.mxsby.me/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>测试2</title>
