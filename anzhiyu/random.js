@@ -1,4 +1,4 @@
-var posts=["2025/08/21/Markdown介绍/","2025/08/21/Markdown语法的学习/","2025/08/01/博客加入音乐播放插件/","2025/08/23/potplayer挂载Alist-播放网盘资源/","2025/07/31/夏末随笔/","2025/08/20/世界历史发展/","2025/08/21/如何使用网易爆米花加载夸克网盘影视资源/","2025/07/31/思考/"];function toRandomPost(){
+var posts=["2025/08/21/Markdown介绍/","2025/08/21/Markdown语法的学习/","2025/08/20/世界历史发展/","2025/08/01/博客加入音乐播放插件/","2025/08/23/potplayer挂载Alist-播放网盘资源/","2025/08/21/如何使用网易爆米花加载夸克网盘影视资源/","2025/07/31/夏末随笔/","2025/07/31/思考/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
