@@ -6,7 +6,7 @@
   <link href="https://www.mxsby.me/atom.xml" rel="self"/>
   
   <link href="https://www.mxsby.me/"/>
-  <updated>2025-08-22T17:59:41.950Z</updated>
+  <updated>2025-08-28T15:35:11.256Z</updated>
   <id>https://www.mxsby.me/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://www.mxsby.me/2025/08/28/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://www.mxsby.me/2025/08/28/%E6%B5%8B%E8%AF%95/</id>
+    <published>2025-08-28T15:32:40.000Z</published>
+    <updated>2025-08-28T15:35:11.256Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="aaaa"><a href="#aaaa" class="headerlink" title="aaaa"></a>aaaa</h1><h2 id="bbbb"><a href="#bbbb" class="headerlink" title="bbbb"></a>bbbb</h2><h3 id="vvvv"><a href="#vvvv" class="headerlink" title="vvvv"></a>vvvv</h3><p><strong>dddd</strong><br><em>fdsf</em><br><code>dasdasdaasd</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;aaaa&quot;&gt;&lt;a href=&quot;#aaaa&quot; class=&quot;headerlink&quot; title=&quot;aaaa&quot;&gt;&lt;/a&gt;aaaa&lt;/h1&gt;&lt;h2 id=&quot;bbbb&quot;&gt;&lt;a href=&quot;#bbbb&quot; class=&quot;headerlink&quot; title=&quot;bbbb&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://www.mxsby.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="技术教程" scheme="https://www.mxsby.me/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>potplayer挂载Alist,播放网盘资源</title>
