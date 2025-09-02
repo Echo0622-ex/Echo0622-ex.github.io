@@ -315,13 +315,13 @@ queueMicrotask(() => {
   const initWaline = (Fn) => {
     const waline = Fn(Object.assign({
       el: '#waline-wrap',
-      serverURL: 'https://waline-rho-sooty.vercel.app/',
+      serverURL: 'https://example.mxsby.me',
       pageview: false,
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
       comment: true,
       imageUploader: true,
-    }, null))
+    }, {"placeholder":"请文明评论呀"}))
 
     const destroyWaline = () => {
       waline.destroy()
@@ -392,7 +392,7 @@ queueMicrotask(() => {
 
   const getComment = async () => {
     try {
-      const res = await fetch('https://waline-rho-sooty.vercel.app/api/comment?type=recent&count=6', { method: 'GET' })
+      const res = await fetch('https://example.mxsby.me/api/comment?type=recent&count=6', { method: 'GET' })
       const result = await res.json()
       const walineArray = result.data.map(e => {
         return {
