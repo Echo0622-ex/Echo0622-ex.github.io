@@ -36,18 +36,18 @@ function ChucklePostAI(AI_option) {
       targetElement = getArticleElements();
     }
     // 获取文章标题，默认获取网页标题
-    const post_title = document.querySelector(AI_option.title_el) ? document.querySelector(AI_option.title_el).textContent : document.title;
-    if (!targetElement) {
-      return;
-    };
-    const interface = {
-      name: "然-AI",
-        introduce: "我是文章辅助AI: 然-AI，一个基于deepseek的强大语言模型，有什么可以帮到您？😊",
-      version: "deepseek",
-      button: ["介绍自己😎", "推荐相关文章👍", "生成AI简介🤖", "矩阵穿梭🚀"],
-      ...AI_option.interface
-    }
-    insertCSS(); // 插入css
+    // const post_title = document.querySelector(AI_option.title_el) ? document.querySelector(AI_option.title_el).textContent : document.title;
+    // if (!targetElement) {
+    //   return;
+    // };
+    // const interface = {
+    //   name: "然-AI",
+    //     introduce: "我是文章辅助AI: 然-AI，一个基于deepseek的强大语言模型，有什么可以帮到您？😊",
+    //   version: "deepseek",
+    //   button: ["介绍自己😎", "推荐相关文章👍", "生成AI简介🤖", "矩阵穿梭🚀"],
+    //   ...AI_option.interface
+    // }
+    // insertCSS(); // 插入css
     // 插入html结构
     const post_ai_box = document.createElement('div');
     post_ai_box.className = 'post-ai';
