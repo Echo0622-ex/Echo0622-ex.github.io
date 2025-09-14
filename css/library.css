@@ -119,8 +119,3 @@
       --w: calc(50% - 8px);
     }
   }
-/* 针对影视卡片中的链接 */
-.library .library-list .library_box .library_content a {
-  color: #fff; /* 设置为白色，与普通文本颜色一致 */
-  text-decoration: none; /* 同时可以去掉链接默认的下划线（如果不需要的话） */
-}
