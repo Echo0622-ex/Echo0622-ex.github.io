@@ -73,10 +73,10 @@
   };
 
   const config = {
-    smallSrc: '/https://pic1.imgdb.cn/item/68a7111958cb8da5c8412d05.webp', // 小图链接 尽可能配置小于100k的图片
-    largeSrc: '/https://pic1.imgdb.cn/item/68d10bacc5157e1a88260a45.jpg', // 大图链接 最终显示的图片
-    mobileSmallSrc: '/https://pic1.imgdb.cn/item/68a7111958cb8da5c8412d05.webp', // 手机端小图链接 尽可能配置小于100k的图片
-    mobileLargeSrc: '/https://pic1.imgdb.cn/item/68d10bacc5157e1a88260a45.jpg', // 手机端大图链接 最终显示的图片
+    smallSrc: 'https://pic1.imgdb.cn/item/68a7111958cb8da5c8412d05.webp', // 小图链接 尽可能配置小于100k的图片
+    largeSrc: 'https://pic1.imgdb.cn/item/68d10bacc5157e1a88260a45.jpg', // 大图链接 最终显示的图片
+    mobileSmallSrc: 'https://pic1.imgdb.cn/item/68a7111958cb8da5c8412d05.webp', // 手机端小图链接 尽可能配置小于100k的图片
+    mobileLargeSrc: 'https://pic1.imgdb.cn/item/68d10bacc5157e1a88260a45.jpg', // 手机端大图链接 最终显示的图片
     enableRoutes: ['/'],
     };
 
