@@ -72,13 +72,13 @@
     loader.progressiveLoad();
   };
 
-  const config = {
-    smallSrc: 'https://pic1.imgdb.cn/item/68a7111958cb8da5c8412d05.webp', // 小图链接 尽可能配置小于100k的图片
-    largeSrc: 'https://pic1.imgdb.cn/item/68d10bacc5157e1a88260a45.jpg', // 大图链接 最终显示的图片
-    mobileSmallSrc: 'https://pic1.imgdb.cn/item/68a7111958cb8da5c8412d05.webp', // 手机端小图链接 尽可能配置小于100k的图片
-    mobileLargeSrc: 'https://pic1.imgdb.cn/item/68d10bacc5157e1a88260a45.jpg', // 手机端大图链接 最终显示的图片
-    enableRoutes: ['/'],
-    };
+const config = {  
+  smallSrc: '/img/xiaotu.jpg', // 小图链接 尽可能配置小于100k的图片  
+  largeSrc: '/img/tu.jpg', // 大图链接 最终显示的图片  
+  mobileSmallSrc: '/img/sjxt.jpg', // 手机端小图链接 尽可能配置小于100k的图片  
+  mobileLargeSrc: '/img/sjdt.jpg', // 手机端大图链接 最终显示的图片  
+  enableRoutes: ['/'],  
+  };
 
   function initProgressiveLoad(config) {
     // 每次加载前先清除已有的元素
