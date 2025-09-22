@@ -23,8 +23,5 @@
 
 /* 白天模式：设置图片背景（需替换为实际图片URL） */
 #web_bg {
-  background-image: url('https://pic1.imgdb.cn/item/68d13937c5157e1a88277d0f.jpg');
-  /* 示例：可使用Picsum的随机风景图（仅测试用）
-  background-image: url('https://picsum.photos/1920/1080?random=1');
-  */
+  background-image: url('https://pic1.imgdb.cn/item/68d13e36c5157e1a88278185.jpg');
 }
