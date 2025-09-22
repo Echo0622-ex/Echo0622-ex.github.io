@@ -243,13 +243,6 @@
   </url>
   
   <url>
-    <loc>https://www.mxsby.me/tags/alist/</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.mxsby.me/tags/%E5%8E%86%E5%8F%B2/</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -257,7 +250,14 @@
   </url>
   
   <url>
-    <loc>https://www.mxsby.me/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</loc>
+    <loc>https://www.mxsby.me/tags/%E5%A4%8F%E6%9C%AB/</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.mxsby.me/tags/alist/</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -272,27 +272,6 @@
   
   <url>
     <loc>https://www.mxsby.me/tags/%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mxsby.me/tags/%E5%A4%8F%E6%9C%AB/</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mxsby.me/tags/%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98/</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mxsby.me/tags/%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1/</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -314,6 +293,27 @@
   
   <url>
     <loc>https://www.mxsby.me/tags/%E4%BF%A1%E6%81%AF%E5%8C%96/</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.mxsby.me/tags/%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98/</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.mxsby.me/tags/%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1/</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.mxsby.me/tags/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
