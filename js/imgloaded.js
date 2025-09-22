@@ -82,7 +82,7 @@ const config = {
   largeSrc: 'https://pic1.imgdb.cn/item/68d12626c5157e1a8826f0f4.jpg', // 大图链接 最终显示的图片
   mobileSmallSrc: 'https://pic1.imgdb.cn/item/68d00f0cc5157e1a88221fec.webp', // 手机端小图链接 尽可能配置小于100k的图片
   mobileLargeSrc: 'https://pic1.imgdb.cn/item/68d12626c5157e1a8826f0f4.jpg', // 手机端大图链接 最终显示的图片
-//   enableRoutes: ['/'],
+  enableRoutes: ['/'],
   };
 
 function initProgressiveLoad(config) {
