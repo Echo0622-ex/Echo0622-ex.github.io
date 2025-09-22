@@ -1,9 +1,32 @@
-/* 白天网站背景/颜色 */
+/* 白天网站背景/颜色
 #web_bg {
  background: linear-gradient(90deg, rgba(247, 149, 51, .1), rgba(243, 112, 85, .1) 15%, rgba(239, 78, 123, .1) 30%, rgba(161, 102, 171, .1) 44%, rgba(80, 115, 184, .1) 58%, rgba(16, 152, 173, .1) 72%, rgba(7, 179, 155, .1) 86%, rgba(109, 186, 130, .1))
 }
 
 /* 夜间网站背景/颜色 */
-[data-theme=dark] #web_bg {
+/* [data-theme=dark] #web_bg {
  background: linear-gradient(90deg, rgba(10, 15, 25, 0.9), rgba(20, 30, 45, 0.9));
+} */ 
+
+/* 背景容器基础样式（确保覆盖全屏） */
+#web_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* 图片加载前的过渡背景色（与图片基调一致，避免闪烁） */
+  background-color: #f8f9fa; /* 浅色背景，适配大多数白天图片 */
+}
+
+/* 白天模式：设置图片背景（需替换为实际图片URL） */
+#web_bg {
+  background-image: url('https://pic1.imgdb.cn/item/68d13937c5157e1a88277d0f.jpg');
+  /* 示例：可使用Picsum的随机风景图（仅测试用）
+  background-image: url('https://picsum.photos/1920/1080?random=1');
+  */
 }
