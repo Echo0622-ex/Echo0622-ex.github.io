@@ -1,8 +1,8 @@
 window.IP_CONFIG = {
     API_KEY: 'xgjVdhukG0uj8WFJGHrd5zr96v', // API密钥 申请地址：https://api.76.al/
     BLOG_LOCATION: {
-        lng: 113.666, // 经度
-        lat: 34.666 // 纬度
+        lng: 107.888,  // 东经107.888°（约为西乡县县城附近经度）
+          lat: 33.111    // 北纬33.111°（约为西乡县县城附近纬度）
     },
     CACHE_DURATION: 1000 * 60 * 60, // 可配置缓存时间(默认1小时)
     HOME_PAGE_ONLY: true, // 是否只在首页显示 开启后其它页面将不会显示这个容器
