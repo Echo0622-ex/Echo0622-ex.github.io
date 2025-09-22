@@ -23850,13 +23850,7 @@ div#swiper_container:hover {
   user-select: none;
 }
 
-.bdageitem {
-    text-align: center;
-}
-.bdageitem img {
-    margin: 10px; /* 徽章间距 */
-    display: inline-block;
-}
+
 .todayCard-title,
 .todayCard-tips,
 .topGroup .banner-button {
