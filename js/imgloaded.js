@@ -73,8 +73,8 @@
   };
 
 const config = {  
-  smallSrc: '/img/xiaotu.jpg', // 小图链接 尽可能配置小于100k的图片  
-  largeSrc: '/img/tu.jpg', // 大图链接 最终显示的图片  
+  smallSrc: 'source\img\siteicon\apple-splash-2160-1620.jpg', // 小图链接 尽可能配置小于100k的图片  
+  largeSrc: 'source\img\siteicon\apple-splash-2160-1620.jpg', // 大图链接 最终显示的图片  
   mobileSmallSrc: '/img/sjxt.jpg', // 手机端小图链接 尽可能配置小于100k的图片  
   mobileLargeSrc: '/img/sjdt.jpg', // 手机端大图链接 最终显示的图片  
   enableRoutes: ['/'],  
