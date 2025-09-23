@@ -13,8 +13,10 @@
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
+  bottom: 0;
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +25,7 @@
 
 /* 白天模式：设置图片背景（需替换为实际图片URL） */
 #web_bg {
-  background-image: url('https://pic1.imgdb.cn/item/68d13e36c5157e1a88278185.jpg');
+  background-image: url('https://pic1.imgdb.cn/item/68d139e2c5157e1a88277de2.jpg');
 }
 /* 侧边栏头像卡片 */
 #aside-content>.card-widget.card-info::before {
