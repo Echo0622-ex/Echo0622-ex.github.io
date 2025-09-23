@@ -1,0 +1,6 @@
+/* 字体css */
+@font-face{
+  font-family: 'YeZiGongChangYouLongXingKai'; 
+  font-display: swap;
+  src: url('/ttf/YeZiGongChangYouLongXingKai-2.ttf') format("truetype");
+}
