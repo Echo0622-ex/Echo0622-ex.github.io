@@ -25,3 +25,13 @@
 #web_bg {
   background-image: url('https://pic1.imgdb.cn/item/68d13e36c5157e1a88278185.jpg');
 }
+/* 侧边栏头像卡片 */
+#aside-content>.card-widget.card-info::before {
+  background: url('https://pic1.imgdb.cn/item/68d139e2c5157e1a88277de2.jpg');
+  border: 0;
+  position: absolute;
+  background-size: 100% 100%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite !important;
+}
