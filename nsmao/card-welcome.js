@@ -1,5 +1,5 @@
 window.IP_CONFIG = {
-    API_KEY: 'xgjVdhukG0uj8WFJGHrd5zr96v', // API密钥 申请地址：https://api.76.al/
+    API_KEY: 'yQCIcDNV7bHbeisH2VlBoh72ap', // API密钥 申请地址：https://api.76.al/
     BLOG_LOCATION: {
         lng: 107.888,  // 东经107.888°（约为西乡县县城附近经度）
           lat: 33.111    // 北纬33.111°（约为西乡县县城附近纬度）
